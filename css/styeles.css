@@ -12,23 +12,50 @@ body {
     letter-spacing: 0.03em;
     background-color: var(--white);
     color: var(--slate);
+    
 }
+
+
+/*div*/
+.main-menu{
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
 .list{
     list-style: none;
+    display: flex;
+    justify-content: center;
+    
 }
+
 .link{
-    text-decoration:none; ;
+    text-decoration:none;
+
 }
+
 address{
     font-style: normal;
+    margin-left: auto;
+    align-content: center;
 }
+
+
 /* Logo */
+.main-logo {
+    display: flex;
+    align-items: center;
+}
 .logo{
     color: var(--iris);
     font-family:'Raleway', sans-serif;
     font-weight: 800;
     font-size:18px;
     line-height: 1.2;
+    
+    
 }
 .logo-black{
     color: var(--navy-blue);
@@ -36,40 +63,25 @@ address{
 .logo-white{
     color: var(--white);
 }
-/* .logo-web {
-    color: #4D5AE5;
-    font-family: 'Raleway', sans-serif;
-    font-size: larger;
-    font-weight: 400;
-}
-.logo-studio {
-    color: #000;
-    font-family: font-family: 'Roboto', sans-serif;
-    font-size: larger;
-    font-weight: 700;
-} */
-/* .site-nav .link  {
-    text-decoration: none;
-    color: #000;
-}
-.site-add .link {
-    text-decoration: none;
-    text-transform: none;
-    font-style: normal;
-    color: #000;
-}   */
+
 /* HEADER */
+
 .site-nav .page {
     color: var(--navy-blue);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02em; 
+    
 }
+
+.site.nav-list
 .site-add .item {
     color: var(--navy-blue);
     font-weight: 500;
     font-size: 14px;
+  
+    
 }
 .site-nav .page:hover,
 .site-nav .page:focus,
@@ -80,6 +92,8 @@ address{
 }
 /* HERO */
 .hero {
+    height: 500px;
+    padding-top: 180px;
     background-color: #2E2F42;
     font-family: 'Roboto',sans-serif ;
     line-height: 1.14;
@@ -88,12 +102,23 @@ address{
 }
 .main-heading {
     color: var(--white);
-    font-size: 44px;
+    font-size: 60px;
     font-weight: 800;
     text-align: center;
     line-height:1.36;
     letter-spacing: 0.06em;
 }
+
+.feature {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8px;
+
+}
+
+
 /* Buttons */
 .buttons {
     font-family: inherit;
@@ -127,20 +152,16 @@ address{
      background-color: var(--ocean);
      color: var(--white);
 }
-/* .buttones {
-    color:#4D5AE5;
-    background-color:#dedff1;
-    padding: 5px;
-    border: 0px;
-    border-radius: 3px;
+
+.wedo {
+    text-decoration: none;
+    display: flex;
+    gap: 40px;
+    padding-top: 72px;
+
 }
-.buttones:hover {
-    cursor: pointer;
-    color: tomato;
-} */
-.feature {
-    width: 300px;
-}
+
+
 .section-head {
     text-align: center;
     font-size: xx-large;
