@@ -40,6 +40,7 @@ address{
     font-style: normal;
     margin-left: auto;
     align-content: center;
+    gap: 40px;
 }
 
 
@@ -81,8 +82,8 @@ address{
     font-weight: 500;
     font-size: 14px;
   
-    
 }
+
 .site-nav .page:hover,
 .site-nav .page:focus,
 .site-nav .page.current,
@@ -115,6 +116,9 @@ address{
     flex-direction: row;
     align-items: flex-start;
     gap: 8px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-top: 120px;
 
 }
 
@@ -164,7 +168,8 @@ address{
 
 .section-head {
     text-align: center;
-    font-size: xx-large;
+    padding-top: 120px;
+
 }
 .our-team {
     background-color: #aeb1d6;
