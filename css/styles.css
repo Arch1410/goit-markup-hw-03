@@ -8,6 +8,7 @@
     --cloud: #F4F4FD
 
     }
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -17,38 +18,28 @@ body {
     
 }
 
-/*div*/
-.main-menu{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .list{
     list-style: none;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
-    align-items: center;
     
 }
 
 .link{
     text-decoration:none;
+    display: inline-flex;
+    align-content: center;
+    justify-content: center;
+    
 
 }
 
 address{
     font-style: normal;
-    gap: 40px;
+    display: inline-flex;
+    margin-left: auto;
+    
 }
-
-/* Logo */
-/*
-.main-logo {
-    display: flex;
-    align-items: center;
-}
-*/
 
 .logo{
     color: var(--iris);
@@ -58,33 +49,52 @@ address{
     line-height: 1.2;
     margin-left: 156px;
     margin-right: 76px;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .logo-black{
     color: var(--navy-blue);
+    display: inline-flex;
 }
+
 .logo-white{
     color: var(--white);
+    display: inline-flex;
 }
 
+.main-menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.item {
+    display: inline-flex;
+    margin-right: 156px;
+    gap: 40px;
+    
+}
+
+.site-add {
+    display: flex;
+    gap: 40px;
+}
 /* HEADER */
-
-
 .site-nav .page {
-    color: var(--navy-blue);
+    color:var(--navy-blue);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
- 
-    
 }
 
-.site.nav
-.site-add .item {
-    color: var(--navy-blue);
-    font-weight: 500;
-    
-  }
+.site-nav {
+    display: inline-flex;
+    gap:40px;
+    margin-left:  347px; ;
+}
 
 .site-nav .page:hover,
 .site-nav .page:focus,
@@ -93,16 +103,18 @@ address{
 .site-add .item:focus{
     color: var(--ocean);
 }
+
 /* HERO */
 .hero {
     height: 500px;
     padding-top: 180px;
-    background-color: #2E2F42;
+    background-color:var(--navy-blue);
     font-family: 'Roboto',sans-serif ;
     line-height: 1.14;
     letter-spacing: 0.02em; 
     text-align: center;
 }
+
 .main-heading {
     color: var(--white);
     font-size: 60px;
@@ -116,14 +128,11 @@ address{
     text-decoration: none;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
     gap: 8px;
     margin-left: 250px;
     margin-right: 250px;
     padding-top: 120px;
-
 }
-
 
 /* Buttons */
 .buttons {
@@ -132,6 +141,7 @@ address{
     border-color: transparent;
     cursor: pointer;
 }
+
 .buttons.order-service{
     background-color: var(--iris);
     color: var(--white);
@@ -140,10 +150,12 @@ address{
     line-height:1.87;
     letter-spacing: 0.06em;
 }
+
 .buttons.order-service:hover,
 .buttons.order-service:focus {
     background-color: var(--ocean);
 }
+
 .buttons.filter{
     background-color: var(--cornflower);
     padding: 6px 22px;
@@ -152,6 +164,7 @@ address{
     font-size: 16px;
     line-height: 1.62;
 }
+
 .buttons.filter:hover,
 .buttons.filter:focus,
 .buttons.filter.current {
@@ -166,7 +179,6 @@ address{
     padding-top: 40px;
     padding-bottom: 40px;
 }
-
 
 .section-head {
     text-align: center;
@@ -191,13 +203,15 @@ address{
 }
 
 .person-name {
-    text-align: center;
+    text-align:center;
 }
+
 .designation {
     text-align: center;
 }
+
 .my-footer {
-    background-color: #2E2F42;
+    background-color: var(--navy-blue);
 }
 
 .footer-info {
@@ -205,5 +219,6 @@ address{
     width: 200px;
     height: 320px;
     margin-left: 156px;
+    padding-top: 101.5px;
     
 }
