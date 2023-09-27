@@ -20,8 +20,9 @@ body {
 
 .list{
     list-style: none;
-    display: inline-flex;
+    display: flex;
     justify-content: center;
+    align-items: center;
     
 }
 
@@ -78,7 +79,7 @@ address{
     
 }
 
-.site-add {
+.site-address {
     display: flex;
     gap: 40px;
 }
@@ -99,8 +100,8 @@ address{
 .site-nav .page:hover,
 .site-nav .page:focus,
 .site-nav .page.current,
-.site-add .item:hover,
-.site-add .item:focus{
+.site-address .item:hover,
+.site-address .item:focus{
     color: var(--ocean);
 }
 
