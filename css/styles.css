@@ -7,7 +7,7 @@
     --cornflower: #E7E9FC;
     --cloud: #F4F4FD
 
-    }
+}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -15,73 +15,53 @@ body {
     letter-spacing: 0.03em;
     background-color: var(--white);
     color: var(--slate);
-    
 }
 
 .list{
     list-style: none;
     display: flex;
-    justify-content: center;
-  
+    gap: 40px;
 }
 
 .link{
     text-decoration:none;
-    display: flex;
-
-    
 }
 
 address {
     font-style: normal;
-    list-style: none;
-    text-decoration: none;
-    display: flex;
 
-    
-    
 }
 
+/* LOGO and Footer Logo */
 .logo{
     color: var(--iris);
     font-family:'Raleway', sans-serif;
     font-weight: 800;
     font-size:18px;
     line-height: 1.2;
-    margin-left: 156px;
-    margin-right: 76px;
-    display: flex;
-    padding-top: 70px;
-  
+    text-decoration: none;
 }
 
 .logo-black{
     color: var(--navy-blue);
-    display: inline-flex;
-}
+ }
 
+/*Logo Footer*/
 .logo-white{
     color: var(--white);
-    display: inline-flex;
 }
 
 
-.main-menu-container {
-    display: flex;
-    flex-direction: row;
+.nav-container{
+    align-items: center;
     align-content: center;
-    align-items: baseline;
-
-
+    
 }
 
 .item {
     list-style: none;
     text-decoration: none;
-    width: auto;
-    display: flex;
-    margin-left: auto;
-    gap: 40px;
+ 
     
 }
 
@@ -105,45 +85,17 @@ address {
     margin-left:  347px; ;
 }
 
-.site-nav .page:hover,
-.site-nav .page:focus,
-.site-nav .page.current,
-.site-address .item:hover,
-.site-address .item:focus{
+/*ALL NAVIGATION AND OPTION LIST in index and portfolio and */
+.nav-container .page:hover,
+.nav-container .page:focus,
+.nav-container .page.current,
+.cta-container .item:hover,
+.cta-container .item:focus{
     color: var(--ocean);
 }
 
-/* HERO */
-.hero {
-    height: 500px;
-    padding-top: 180px;
-    background-color:var(--navy-blue);
-    font-family: 'Roboto',sans-serif ;
-    line-height: 1.14;
-    letter-spacing: 0.02em; 
-    text-align: center;
-}
 
-.main-heading {
-    color: var(--white);
-    font-size: 60px;
-    font-weight: 800;
-    text-align: center;
-    line-height:1.36;
-    letter-spacing: 0.06em;
-}
-
-.feature {
-    text-decoration: none;
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-    margin-left: 250px;
-    margin-right: 250px;
-    padding-top: 120px;
-}
-
-/* Buttons */
+/* ALL BUTTONS */
 .buttons {
     font-family: inherit;
     letter-spacing: 0.03em;
@@ -179,6 +131,38 @@ address {
 .buttons.filter.current {
      background-color: var(--ocean);
      color: var(--white);
+}
+
+
+
+/* HERO */
+.hero {
+    height: 500px;
+    padding-top: 180px;
+    background-color:var(--navy-blue);
+    font-family: 'Roboto',sans-serif ;
+    line-height: 1.14;
+    letter-spacing: 0.02em; 
+    text-align: center;
+}
+
+.main-heading {
+    color: var(--white);
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    line-height:1.36;
+    letter-spacing: 0.06em;
+}
+
+.feature {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-top: 120px;
 }
 
 .wedo {
