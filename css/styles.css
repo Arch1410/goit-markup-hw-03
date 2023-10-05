@@ -195,6 +195,8 @@ address {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    margin-left: 156px;
+    margin-right: 156px;
     
 }
 
